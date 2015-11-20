@@ -11,40 +11,52 @@
 
 </head>
 <body>
-    <header class="nav">
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
+    <div id="container">
+        <div class="overlay"></div>
+        <header class="slideContainer">
 
-            </ul>
-        </nav>
-        <div class="container">
-            <form class="searchbox">
-                <input id="filter" type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();">
-                <input type="image" class="searchbox-submit" value="">
-                <span type="image" class="searchbox-icon"><img src="images/search.svg" /></span>
-            </form>
+            <nav id="menu">
+                <div align="center">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="aboutMe.html">About me</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="button"><span></span></div>
+
+        </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="blogPosts">
+            <div id="posts"></div>
+
         </div>
-
-    </header>
-
+        <div class="pagination"></div>
 
 
-    <div class="banner">
-        <h1>Project Portfolio</h1>
-        <img class="bannerImage" src="images/placeHolder.jpg" />
+
+
     </div>
 
-
-
-
-
-
-
-
-    <div class="blogPosts">
-        <div id="posts"></div>
-    </div>
 
     <script src="js/portfolio.js"></script>
 </body>
