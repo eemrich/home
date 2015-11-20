@@ -1,0 +1,31 @@
+[
+        {
+            "name": "Project 1",
+            "partners": "Partners: Joe Schmoe",
+            "contribution": "Contribution: did a bunch of stuff with the stuff. also did something to the things",
+            "description": "Description: lkagoe ragoaewoaerg oawtoawertgoqa oaertgoawetgaoawetoaweto aowetaeota",
+            "git":  "githublink"
+        },
+        {
+            "name": "Project 2",
+            "partners": "Joe Schmoe",
+            "contribution": "asdf",
+            "description": "asdf",
+            "git":  "githublink"
+        },
+       {
+            "name": "Project 3",
+            "partners": "Joe Schmoe",
+            "contribution": "asdf",
+            "description": "asdf",
+            "git":  "githublink"
+        },
+        {
+            "name": "Project 4",
+            "partners": "Joe Schmoe",
+            "contribution": "asdf",
+            "description": "asdf",
+            "git":  "githublink"
+        }
+       
+]
