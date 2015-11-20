@@ -62,7 +62,10 @@ $(document).ready(function () {
     $("#filter").keyup(function () {
 
         // Retrieve the input field text and reset the count to zero
+
         var filter = $(this).val();
+
+
 
         // Loop through the comment list
         $(".blogPosts .card").each(function () {
@@ -74,6 +77,7 @@ $(document).ready(function () {
                 // Show the list item if the phrase matches and increase the count by 1
             } else {
                 $(this).show();
+
             }
         });
 

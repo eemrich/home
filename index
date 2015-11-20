@@ -1,19 +1,24 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <title>Coulthurst Schmitt's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
-    <script type="text/javascript" language="Javascript"
-            src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js">
-    </script>
+    <title>Coulthurst Schmitt's Main Page</title>
+  
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style>
+    @font-face { font-family: BigelowRules; src: url('BigelowRules.ttf'); } 
+    h1{ font-family: BigelowRules}
+    </style>
 
 </head>
 <body>
-
     <div id="container">
         <div class="overlay"></div>
+        <div class="greeting"><h1>hello!</h1></div>
+        <img id="wavingRobot" src="images/robot.png" />
+
+
         <header class="slideContainer">
 
             <nav id="menu">
@@ -30,36 +35,10 @@
             <div id="button"><span></span></div>
 
         </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="blogPosts">
-            <div id="posts"></div>
-
-        </div>
-        <div class="pagination"></div>
-
-
-
-
-
-
     </div>
-
-    <script src="js/portfolio.js"></script>
 </body>
 </html>
+
+
+
+

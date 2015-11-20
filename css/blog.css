@@ -1,3 +1,4 @@
+
 body,html {    
     background: #30a443;
     height: 100%;
@@ -15,7 +16,7 @@ body,html {
 }
 
 .overlay {
-	position: fixed;
+    position: fixed;
     width: 100%;
     -webkit-box-align: center;
     -webkit-box-pack: center;
@@ -29,11 +30,7 @@ body,html {
     position: fixed;
     right: 0;
     top: 0;
-	
-
 }
-
-
 
 .slideContainer {
     left: 0;
@@ -121,6 +118,7 @@ body,html {
     box-shadow: inset 1px 1px 2px #ddd;
 }
 
+
 .card{
       position: relative;
 	  margin: auto;
@@ -134,7 +132,8 @@ body,html {
       border-radius: 5px;
 	  z-index: 10;
     }
-    
+  
+
     .subject {
       position: relative;
       padding-top: 2rem;
@@ -152,7 +151,6 @@ body,html {
     }
 
 	.post {
-
 		position: relative;
         padding: 30px;
 	}
@@ -175,7 +173,8 @@ body,html {
   width: 0%;
   height: 40px;
   float: right;
- 
+
+
   overflow: hidden;
   -webkit-transition: width 0.3s;
   -moz-transition: width 0.3s;
@@ -239,7 +238,6 @@ searchbox-input::-webkit-input-placeholder {
   vertical-align: 50%;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, .25);
   border-radius: 5px;
-
 }
 .searchbox-submit {
   width: 40px;
@@ -256,9 +254,6 @@ searchbox-input::-webkit-input-placeholder {
   cursor: pointer;
   background: #ffffff;
   border-radius: 5px;
-  
-  
-
 }
 
 .searchbox-open {
@@ -341,7 +336,6 @@ body {
     margin-right: 30px;
     padding-bottom: 30px;
 }
-
 
 
 .banner h1{
@@ -459,4 +453,3 @@ body {
     color: #a44330;  
 }
 }
-
