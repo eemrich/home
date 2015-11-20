@@ -1,15 +1,16 @@
 "use strict";
-
-$(window).bind('scroll', function (e) {
-    parallaxScroll();
+$(document).ready(function() {
+    $(function() {
+        var openButton = $('#button'),
+            slide<a href="http://www.jqueryscript.net/menu/">Menu</a> = $('#menu'),
+        layer = $('<div />').addClass('layer');
+        openButton.on("click", function() {
+            if (slideMenu.is(':hidden')) {
+                slideMenu.slideDown(300);
+            } else {
+                slideMenu.slideUp(300);
+                layer.remove();
+            }
+        });
+    });
 });
-
-function parallaxScroll() {
-    var scrolled = $(window).scrollTop();
-    $('#parallax-layer1').css('top', (0 - (scrolled * .25)) + 'px');
-    $('#parallax-layer2').css('top', (0 - (scrolled * .5)) + 'px');
-    $('#parallax-layer3').css('top', (0 - (scrolled * .75)) + 'px');
-}
-
-
-

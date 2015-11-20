@@ -1,10 +1,18 @@
-
-body {    
-    background: #118C4E
-
+body,html {    
+    background: #30a443;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
 }
 
-
+#container {
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
 
 .overlay {
     width: 100%;
@@ -21,165 +29,158 @@ body {
     right: 0;
     top: 0;
     z-index: 10;
+    overflow: hidden;
 }
 
 
 
-
-
-
-
-
-/*#aboutMePanel{
-    z-index: 5;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+.greeting h1 {
+    z-index: 10000;
+    font-size: 11rem;
     position: absolute;
+    margin-left: 20%;
+    margin-top: 15%;
+    color: #a44330;   
+}
+
+img {
+    z-index: 1000;
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-left: 30%;
     margin-top: 25%;
-    height: 25%;
-    background: #00ff21;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-/*foreground*/
-/*#parallax-layer3 {
-	z-index: 10;
-	position: fixed;
-	left: 50%; 
-	top: 0;
-	width: 1200px;
-	margin-left: -600px;
-	}*/
-	
-	/*#layer3-1 {
-		position: absolute;
-		top: 1300px;
-		left: 100px;
-        height: 200px;
-        width: 200px;
-		}*/
-
-/*midground*/
-/*#parallax-layer2 {
-	 z-index: 4;
-    position: absolute;
-  width: 100%;
-  height: 100%;
+    overflow: hidden;
 }
-	#layer2-1 {
-		  z-index: 4;
-	    position: absolute;
-        top: 400%;
-	    margin: auto;
-        width: 300px;
-	    }*/
 
-    /*background*/
-/*#parallax-layer1 {
-    z-index: 4;
+.slideContainer {
+    left: 0;
+    width: 100%;
     position: absolute;
-  width: 100%;
-  height: 100%;
+    top: -180px;
+    z-index: 10000;
+    -webkit-transition: top .8s;
+    transition: top .8s;
+    -webkit-transition-timing-function: ease-in-out;
+    text-align: center;
+   
 }
-    #layer1-1 {
-        z-index: 4;
-	    position: absolute;
-        top: 400%;
-	    margin: 50%;
-        width: 300px;
-	    }*/
 
+.slideContainer:hover {
+    top: 0px;
+}
 
- 
+#menu {
+    padding: 50px 0;
+    max-width: 100%;
+    border-bottom: solid 10px #000000; 
+    background: #000000;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
 
+#menu ul {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    width: 100%
+}
 
+#menu li {
+    float: left;
+    padding: 0;
+    width: 25%;
+    list-style: none;
+     
+}
 
+#menu li a {
+    width: 100px;
+    display: block;
+    margin:  10px auto;
+    padding: 20px 10px;
+    border: solid 2px #666;
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 3px;
+}
 
+#menu li a:hover {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
 
+#menu li a:active {
+    border: solid 2px #ffffff;
+    color: #ffffff;
+}
 
-    /*#content {
-    z-index:4;
-	padding: 0 10px;
-	margin: 0 auto;
-	line-height: 1.7;
-	}
+#button {
+    margin: 0 auto;
+    width: 200px;
+    height: 30px;
+    border-radius: 0 0 5px 5px;
+    background: #000000;
+    cursor: pointer;
+     box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
+}
 
-    #content article {
-        width: 350px;
+#button span {
+    position: relative;
+    top: 12px;
+    left: 50%;
+    display: block;
+    margin-left: -25px;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: inset 1px 1px 2px #ddd;
+}
+
+@media screen and (max-width: 660px) {
+
+    #menu {
+        padding: 30px 0;
     }
 
-        #aboutMePage{
-            z-index: 10;
-            position: absolute;   
-            margin-top: 2500px;
-            margin-left: 10%;
-            color: #000000;
-        }
+    #menu li {
+        width: 100%;
+    }
 
-        #portfolioPage{
-            z-index: 10;
-            position: absolute;
-            margin-top: 1500px;
-            margin-left: 70%;
-            color: #000000;
+    #menu li a {
+         width: 100px;
+    display: block;
+    margin:  10px auto;
+    padding: 20px 10px;
+    border: solid 2px #666;
+    color: #666;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 3px;
+    }
 
-        }
+    .slideContainer {
 
-        #blogPage{
-            z-index: 10;
-            position: absolute;
-            margin-top: 500px;
-            margin-left: 10%;
-            color: #000000;
-        }
-
-
-#bottomPanel {
-    z-index: 4;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    margin-top: 3000px;
-    height: 1000px;
-    background: linear-gradient(rgba(255, 255, 255,1),
-  rgba(0, 0, 0,0));
+    top: -400px;
 }
 
-
-
-#projectPanel{
-    z-index: 5;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    margin-top: 1000px;
-    height: 1000px;
+    img {
+    position: fixed;
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-top: 60%;
+    overflow: hidden;
 }
-
-#blogPanel{
-    z-index: 5;
-    width: 100%;
-    padding: 0;
-    margin: 0;
+    .greeting h1 {
+    font-size: 10rem;
     position: absolute;
-    margin-top: 0px;
-    height: 1000px;
-    
-}*/
-
-
-
-
+    text-align: center;
+    margin-top: 20%;
+    color: #a44330;  
+}
+}
 
