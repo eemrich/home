@@ -1,0 +1,30 @@
+[
+        {
+            "name": "Call Tracker",
+            "partners": "Partner: Eli Rapkin",
+            "contribution": "Contribution: Besides helping to hook this project up to SalesForce, I was in charge of making sure all the views communicated with the correct controllers, and again designed the look and feel.",
+            "description": "Description: This project was designed to get us experience creating CRM software. We chose to create a program that allowed you to log how often you were able to get a hold of your connects to minimize missed calls. ",
+            "git":  "https://github.com/erapkin/CallTracker"
+        },
+        {
+            "name": "Agar clone",
+            "partners": "This was an individual project so I was responsible for creating the whole thing.",
+            "description": "Description: For this project I chose to create an Agar.io clone using Windows Forms. I was able to create local multiplayer.",
+            "git":  "https://github.com/coulthurst/Agario"
+        },
+       {
+            "name": "Calculator",
+            "partners": "Partners: Kevin Nieskes and Aaron DeSanctis",
+            "contribution": "Contribution: I helped come up with the original template as well as coded up some of the functions. I designed the look and feel of the graphical calculator.",
+            "description": "Description: This was one of our first C# programs and our task was to create a calculator. We finished our first one early so proceeded to create one using a GUI.",
+            "git":  "https://github.com/coulthurst/calc"
+        },
+        {
+            "name": "Robot",
+            "partners": "Partners: Brandon Guild and Dave Mazmanian",
+            "contribution": "Contribution: Created the concept for the project and developed the algorithm to move the printers arm.",
+            "description": "Description: This was the first project we worked on in Python and my first ever coding project. We were to create a 'robot' and we chose a 3D printer.",
+            "git":  "https://github.com/branzg/Robot"
+        }
+       
+]
